@@ -20,6 +20,7 @@ flutter:
   assets: 
     - assets/
     - assets/images/
+    - assets/contracts/your_contract.sol
   fonts: 
     - family: Inter
       fonts: 

@@ -19,10 +19,10 @@ with open(ABI, "r") as f:
 contract = w3.eth.contract(address=CONTRACT_ADDRESS, abi=abi)
 
 conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
+    host="",
+    user="",
     password=PASSWORD,
-    database="employees"
+    database=""
 )
 
 abi = ABI
